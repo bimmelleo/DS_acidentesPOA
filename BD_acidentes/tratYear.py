@@ -7,7 +7,6 @@ import matplotlib.pyplot as plt
 #carregando a base
 df = pd.read_csv('cat_acidentes.csv', sep=';')
 
-
 #converter de object para data
 df['data'] = pd.to_datetime(df['data'], errors='coerce')
 
